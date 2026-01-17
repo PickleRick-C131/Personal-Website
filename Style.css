@@ -161,6 +161,14 @@ img{
     box-shadow: none;
 }
 
+.photography-grid .grid-item {
+    aspect-ratio: auto;
+}
+
+.photography-grid .grid-item img {
+    object-fit: contain;
+}
+
 /* Responsive breakpoints */
 @media (max-width: 768px) {
     .image-grid {
