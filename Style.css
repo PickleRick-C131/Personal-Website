@@ -115,9 +115,10 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    min-height: calc(100vh - 60px); /* Account for navigation bar */
     background-color: #ffffff; /* Light background color */
     padding: 20px; /* Padding around the PDF */
+    margin-top: 10px;
 }
 
 .pdf-embed {
